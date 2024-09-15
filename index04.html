@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="datanya"></div> 
+   <script>
+    function kalikanAngka(angka1, angka2) {
+        console.log("Proses penghitungan " + angka1 + " dan " + angka2);
+        return angka1 * angka2;
+    }
+
+    console.log(kalikanAngka(5, 10));
+    console.log(kalikanAngka(3, 15));
+
+    document.getElementById("datanya").innerHTML = kalikanAngka(5,15);
+   </script>
+</body>
+</html>
